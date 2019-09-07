@@ -24,7 +24,7 @@ print(iris.data)
 print(iris.target)
 # 模型初始化
 knn = KNeighborsClassifier(n_neighbors=1)
-
+print(knn)
 # 模型训练
 knn.fit(x, y)
 

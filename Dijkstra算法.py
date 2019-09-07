@@ -36,5 +36,5 @@ def Dijkstra(G,v0,INF=999):
     minv = v
  return dis
 dis = Dijkstra(G,v0=1)
-print("脚本之家测试结果：")
+print("测试结果：")
 print (dis.values())
